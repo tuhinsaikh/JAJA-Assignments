@@ -1,1 +1,44 @@
+Day 14 JA111 Assignment
 
+Q1) Create a user-defined checked exception called InsufficientFundsException.
+
+Create a class called Account with 2 fields:
+accountNumber: String
+Balance: double
+
+and define the following 2 methods inside the Account class:
+1. deposit(amount): void
+2. withdraw(amount): double
+Create an AccountDemo class with the main method and perform the following task:
+Create the Account class object by passing the Account number.
+You can deposit the amount into that account by invoking the deposit() method
+by passing the deposit amount as an argument.
+If you have a balance in your account, you have to withdraw the amount by
+invoking the withdraw() method by passing a suitable amount as an argument.
+But, if your requested amount is more than the available balance, you have to
+generate the “InsufficientFundException” object and the same have to be thrown
+to the caller (with the suitable message).
+Note: make sure the application should be terminated normally.
+
+Q2) A student portal allows users to register their profile. During registration the system needs
+to validate the user should be located in India. If not, the system should throw an exception.
+Step 1: Create a user defined exception class named “InvalidCountryException”.
+Step 2: Overload the respective constructors.
+Step 3: Create a main class “UserRegistration”, add the following method,
+registerUser– The parameter are String username,String userCountry and add the following logic,
+• if userCountry is not equal to “India” throw a InvalidCountryException with the message
+“User Outside India cannot be registered”
+• if userCountry is equal to “India”, print the message “User registration done successfully”
+Note : Take the input from user using Scanner
+Invoke the method registerUser from the main method with the data specified and see how the program
+behaves,
+Sample Input 1:
+Enter Your Name:
+Sam
+Enter Your Country:
+India
+
+Sample Output 2:
+User registration done successfully
+
+Q3) Explain Finally and Final Keyword with an Example?
