@@ -1,1 +1,29 @@
+Day 15 JA111 Assignment
 
+Q1) Write a method that accepts the date of birth from the user in the String form and
+returns the age of the user, If the supplied date is in the future then print the message:
+“Date should not be in Future”. and if the user will supply an invalid date format then
+throw a checked exception (User-defined exception) called “InvalidDateFormat”
+exception.
+Call this method from the main method and display the appropriate result by handling
+the “InvalidDateFormat” exception.
+
+Note: The application should not terminate abnormally.
+
+Q2) Write a method inside a class EmployeeBonus
+which will take the joining date in the form of a String and return the bonus in double.
+
+If Employee has less than 1 year of experience then give the bonus as 5000.
+If Employee is having 1 year or less than 2 years of experience then give the bonus
+as 8000.
+If Employee is having more than 2 years of experience then give the bonus as
+10000.
+
+Create a user-defined checked exception called InvalidAge exception
+If Employee passes any date which is in future then throw the InvalidAge exception
+with the message: ”Age should not be in the future ”.
+If Employee passes any date in the wrong format then throw the InvalidAge exception
+with the message: “Please pass the date in the correct format”;
+Create a Main class with the main method and call the method of EmployeeBonus
+class
+Note: Employee class should not terminate abnormally
